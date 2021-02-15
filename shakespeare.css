@@ -1,15 +1,15 @@
 .speech {
-    font-size: 10px;
+    font-size: 16px;
     color: black;
 }
 
 .stage-direction {
-    font-size: 10px;
+    font-size: 16px;
     color: black;
     background-color: cornflowerblue;
 }
 
-.stage-direction.hover {
+.stage-direction:hover {
     background-color: blue;
     color: white;
 }
