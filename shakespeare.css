@@ -1,0 +1,28 @@
+.speech {
+    font-size: 10px;
+    color: black;
+}
+
+.stage-direction {
+    font-size: 10px;
+    color: black;
+    background-color: cornflowerblue;
+}
+
+.stage-direction.hover {
+    background-color: blue;
+    color: white;
+}
+
+.name {
+    font-size: 20px;
+    color: black;
+}
+
+.PETRUCHIO {
+    color: tomato;
+}
+
+.GRUMIO {
+    color: violet;
+}
