@@ -26,3 +26,25 @@
 .GRUMIO {
     color: violet;
 }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  
+  th, td { 
+    padding: 16px;
+    width: 6px;
+    text-align: left;
+    border: 2px solid rgb(0, 0, 0);
+
+  }
+  th{
+      background-color: black;
+      color:whitesmoke;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
