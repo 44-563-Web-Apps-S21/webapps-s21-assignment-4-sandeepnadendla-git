@@ -21,11 +21,15 @@
 
 
 .PETRUCHIO {
-    color: black;
+    color: rgb(44, 81, 92);
 }
 
 .GRUMIO {
-    color: black;
+    color: rgb(108, 114, 20);
+}
+
+.HORTENSIO{
+    color:burlywood;
 }
 
 
@@ -57,3 +61,33 @@ table {
     background-color: lightgrey;
     height: 34px;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    float: righta;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #4CAF50;
+  }
