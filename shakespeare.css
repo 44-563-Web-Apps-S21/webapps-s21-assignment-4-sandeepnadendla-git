@@ -20,12 +20,13 @@
 }
 
 .PETRUCHIO {
-    color: tomato;
+    color: black;
 }
 
 .GRUMIO {
-    color: violet;
+    color: black;
 }
+
 
 table {
     border-collapse: collapse;
